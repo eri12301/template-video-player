@@ -1,5 +1,5 @@
 # template-video-player
-## Provides a easy to understand working template for integrating video playback in your SDL application
+## Provides a working video player and easy to understand template for integrating video playback in your SDL application
 Built with SDL, ffmpeg and imgui, combining easy to understand and fundamental tools
 ## For whom is it intended?
 If you are new to video decoding and want to build an application with video playback (e.g. games) this template can indeed help you to get a basic video player in your app.
