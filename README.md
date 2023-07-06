@@ -11,7 +11,7 @@ If you are new to video decoding and want to build an application with video pla
 - Integrate a syncing mechanism, so that audio is always in sync with video. Since there are many different approaches, it's up to you.
 - Playback controls
 ## Requirements
-Only Cmake is requiered, since vcpk is bundled as submodule, all other dependencies will automatically installed.
+Only Cmake is requiered, since vcpk is bundled as a submodule, all other dependencies will automatically installed.
 ## Q&A
 - Why does it takes so long to build? \
 First time building requires some time, since ffmpeg takes a lot time to build.
