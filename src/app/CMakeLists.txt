@@ -7,7 +7,7 @@ find_package(imgui CONFIG REQUIRED)
 
 add_subdirectory(widgets)
 
-add_executable(${NAME} ImguiRenderer.cpp ImguiRenderer.hpp app.cpp Sound.hpp Sound.cpp)
+add_executable(${NAME} ImguiRenderer.cpp ImguiRenderer.hpp app.cpp)
 
 target_link_libraries(${NAME} PRIVATE glad::glad imgui::imgui widgets decoder-lib
         $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>

@@ -2,13 +2,14 @@
 #include "glad/glad.h"
 #include <SDL2/SDL.h>
 #include "widgets/FileDialog.hpp"
-#include "Sound.hpp"
 #include "src/decoder/audio_demux_decode.hpp"
 #include "src/decoder/video_reader.hpp"
 
+#include <iostream>
 #include <filesystem>
 #include <fstream>
 #include <string>
+
 
 #include <map>
 
