@@ -1,0 +1,18 @@
+{
+    "name": "template-video-player",
+    "version-string": "0.1.0",
+    "dependencies": [
+        {
+            "name": "imgui",
+            "features": [
+                "sdl2-binding",
+                "opengl3-binding",
+                "docking-experimental"
+            ]
+        },
+        "sdl2",
+        "ffmpeg",
+        "glad",
+        "stb"
+    ]
+}
